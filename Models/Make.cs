@@ -13,7 +13,12 @@ namespace vega.Models
         [StringLength(255)]
         public string Name { get; set; }
         public List<CarModel> Models { get; set; }
+        public List<Photo> Photos { get; set; }
 
-        public Make() => Models = new List<CarModel>();
+        public Make()
+        {
+            Models = new List<CarModel>();
+            Photos = new List<Photo>();
+        }
     }
 }

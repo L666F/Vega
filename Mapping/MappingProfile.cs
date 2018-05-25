@@ -15,6 +15,7 @@ namespace vega.Mapping
             CreateMap<Make, MakeResource>();
             CreateMap<CarModel, CarModelResource>();
             CreateMap<Feature, FeatureResource>();
+            CreateMap<Photo, PhotoResource>();
         }
     }
 }
